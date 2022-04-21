@@ -1,6 +1,6 @@
 	processor 6502
 	
-	seg code
+	seg code	; Define segment of where the code starts
 	org $F000	; Define the code origin at $F000
 
 Start:
